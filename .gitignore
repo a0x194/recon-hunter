@@ -1,0 +1,59 @@
+# Binaries (root level only)
+/reconhunter
+/reconhunter-linux-amd64
+/reconhunter-windows-amd64.exe
+/reconhunter-darwin-amd64
+/reconhunter-darwin-arm64
+*.dll
+*.so
+*.dylib
+
+# Output directories
+output/
+results/
+
+# Test binary folder
+*.test
+*.out
+
+# Dependency directories
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Config files with secrets
+config.yaml
+config.yml
+*.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Coverage
+coverage.out
+coverage.html
+
+# Debug
+debug/
+*.pprof
